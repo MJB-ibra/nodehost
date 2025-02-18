@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: static;
+    overflow: hidden;
+    background-color: whitesmoke;
+   
+}
+.header{
+  background-color: rgb(1, 1, 69);
+  color: white;
+  height: 40pc;
+  width: 17pc;
+  position: relative;
+  left: -32pc;
+  justify-items: center;
+  border: hidden;
+}
+.header h1{
+    position: relative;
+    top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+button{
+    height: 3pc;
+    width: 17pc;
+    position: relative;
+    top: 50px;
+    border: hidden;
+    background-color: transparent;
+    color: aliceblue;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: hidden;
+}
+.header footer{
+    position: relative;
+    bottom: -200px;
+}
+.header button a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.header label a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 4px;
+}
+.body{
+padding: 30px;
+width: 74%;
+height: 36pc;
+position: relative;
+bottom: 40pc;
+left: 12%;
+overflow-y: auto;
+
+}
+footer img{
+    height: 1.8pc;
+}
+.books{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+}
+.books div{
+    height: 15pc;
+    width: 10pc;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: blue;
+}
+.books div:hover{
+    border-color: black;
+}
+.search{
+    position: relative;
+    left: 90px;
+    top: -10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+.divsearch {
+    position: fixed;
+    height: 3pc;
+    width: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: 1s;
+    background-color: black;
+}
+.divsearch input{
+
+    border-radius: 5px;
+}
+
